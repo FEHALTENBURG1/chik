@@ -34,3 +34,10 @@ O painel tenta primeiro os arquivos do repositório remoto `FEHALTENBURG1/dados_
 - Leaflet
 
 A página precisa de acesso à internet para carregar as bibliotecas, os dados e o mapa-base.
+
+## Diagrama de controle
+
+A semana epidemiológica mais recente permanece apresentada na curva, mas é tratada como preliminar. A classificação de situação — Controle, Segurança, Alerta ou Epidemia — utiliza a semana epidemiológica anterior, reduzindo o efeito da incompletude dos dados mais recentes.
+## Regra do canal endêmico
+
+A semana epidemiológica mais recente é considerada preliminar e não aparece no canal endêmico. O gráfico, o selo de situação e a lista de semanas consolidadas terminam na semana imediatamente anterior.
